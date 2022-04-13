@@ -1,0 +1,54 @@
+<html>
+    <head>
+    <!-- <meta http-equiv="refresh" content="2;URL='home.html'/"/> -->
+    <meta http-equiv="refresh" content="2;URL='home.html'/"/>
+        <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing:border-box;
+        }
+        body{
+            display: flex;
+            background:radial-gradient(ellipse at left top, #25c2bbfa 3%, #5dacdc 41%, #0ac0b7 111%, #54aee5 100%);
+            justify-content: center;
+            min-height:100vh;
+            /* background:white; */
+        }
+        img{
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            height:300px;
+            transform: translate(-50%, -50%);
+           
+        }
+
+
+
+        
+        </style>
+    </head>
+    <body>
+
+                    
+       <!-- <img data-aos="zoom-in-up" data-aos-duration="1000" class="ludo" src="assets/logocrik11.png" alt=""/> -->
+
+        <h3 class="tagfoot" id="blink"> <img data-aos="zoom-in-up" data-aos-duration="1000" class="ludo" src="assets/logocrik11.png" alt=""/></h3>
+
+
+    <script type="text/javascript">
+        var blink = document.getElementById('blink');
+        setInterval(function () {
+            blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
+        }, 300);
+    </script>
+   
+    <script>
+        AOS.init();
+    </script>
+
+    
+
+    </body>
+</html>
