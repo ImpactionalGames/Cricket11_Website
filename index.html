@@ -1,0 +1,55 @@
+<html>
+    <head>
+    <!-- <meta http-equiv="refresh" content="2;URL='home.html'/"/> -->
+    <meta http-equiv="refresh" content="5;URL='home.html'/"/>
+        <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing:border-box;
+        }
+        body{
+            display: flex;
+            /* background:radial-gradient(ellipse at left bottom, #000000 25%, #1d1b1a 41%, #ff0036 82%, #da3025 100%); */
+            /* background:radial-gradient(ellipse at left top, #18aadd 19%, #21baad 47%, #ff0000 98%, #da1010 202%); */
+            background:radial-gradient(ellipse at left top, #000000fa 19%, #0c0c0c 47%, #ff0000 111%, #da1010 182%);
+            justify-content: center;
+            min-height:100vh;
+            /* background:white; */
+        }
+        img{
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            height:300px;
+            transform: translate(-50%, -50%);
+           
+        }
+
+
+
+        
+        </style>
+    </head>
+    <body>
+
+                    
+       <!-- <img data-aos="zoom-in-up" data-aos-duration="1000" class="ludo" src="assets/logocrik11.png" alt=""/> -->
+       <img data-aos="zoom-in-up" data-aos-duration="1000" class="tagfoot" id="blink" src="assets/logocrik11.png" alt="" style="transition:0.8s;"/>
+
+
+    <script type="text/javascript">
+        var blink = document.getElementById('blink');
+        setInterval(function () {
+            blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
+        }, 400);
+    </script>
+   
+    <script>
+        AOS.init();
+    </script>
+
+    
+
+    </body>
+</html>
